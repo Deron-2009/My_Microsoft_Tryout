@@ -1,0 +1,218 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    border: 2px solid black;
+}
+img {
+    width: 100%;
+}
+li {
+    display: inline;
+    margin-left: 10px;
+}
+.header{
+    display:flex;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    margin-top:10px;
+}
+.banner{
+    display:flex;
+}
+.set1 {
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.sethalf{
+    display:flex;
+    margin-top:20px;
+    width:80%;
+    margin:20px auto;
+    justify-content:space-evenly;
+}
+.choose{
+    text-align: center;
+    width:150px;
+    height:120px;
+}
+.explore{
+    text-align: center;
+    width:150px;
+    height:120px;
+}
+.buy{
+    text-align: center;
+    width:150px;
+    height:120px;
+}
+.get{
+    text-align: center;
+    width:150px;
+    height:120px;
+}
+.surface {
+    width: 250px;
+    height: 300px;
+}
+
+.Microsoft_365 {
+    width: 250px;
+    height: 300px;
+}
+
+.Teams {
+    width: 250px;
+    height: 300px;
+}
+
+.game {
+    width: 250px;
+    height: 300px;
+}
+
+.good {
+    color: blue;
+}
+
+.family {
+    color: blue;
+    display: block;
+}
+.bannertwo{
+    display:flex;
+    margin-top:20px;
+}
+.forbusiness {
+    display: flex;
+    margin-left: 20px;
+}
+
+.set2 {
+    display:flex;
+    justify-content:space-between;
+    margin-left: 20px;
+}
+
+.surfacebus {
+    width: 250px;
+    height: 300px;
+}
+
+.mic365 {
+    width: 250px;
+    height: 300px;
+}
+
+.w10 {
+    width: 250px;
+    height: 300px;
+}
+
+.hybrid {
+    width: 250px;
+    height: 300px;
+}
+
+.grayresponse {
+    background-color: lightgrey;
+    text-align: center;
+    width: 100%;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.follow {
+    margin-left: 10px;
+    display: flex;
+    padding:20px 0px;
+}
+
+.facebook {
+    width: 20px;
+}
+
+.twitter {
+    width: 20px;
+}
+
+.youtube {
+    width: 20px;
+}
+
+.final {
+    width: 100%;
+    text-align: center;
+    background-color: lightgrey;
+    display: flex;
+    justify-content:space-around;
+}
+
+.whatsnew {
+    width: 125px;
+}
+
+.store {
+    width: 175px;
+}
+
+.two {
+    display: block;
+}
+
+@media screen and (max-width:1000px){
+    .set1>div{
+        width:200px;
+    }
+    .set2>div{
+        width:200px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .set1>div{
+        width:150px;
+    }
+    .set2>div{
+        width:150px;
+    }
+    .bannertwo{
+        margin-top:50px;
+    }
+    .forbusiness{
+        text-align:center;
+    }
+    .grayresponse{
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .header{
+        align-items:center;
+        flex-direction: column;
+    }
+    .links{
+        margin-top:-20px;
+    }
+    .set1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .set2{
+        flex-direction:column;
+        align-items:center;
+    }
+    .set1>div{
+        margin-top:50px;
+        width:60%;
+    }
+    .set2>div{
+        margin-top:50px;
+        width:60%;
+    }
+}
